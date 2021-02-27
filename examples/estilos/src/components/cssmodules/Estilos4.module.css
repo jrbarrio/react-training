@@ -1,0 +1,15 @@
+.parrafo {
+    background-color: palevioletred;
+}
+
+.parrafo:hover {
+    background-color: peachpuff;
+}
+
+.parrafo.verde {
+    background-color: lightgreen;
+}
+
+.parrafo.verde:hover {
+    background-color: green;
+}

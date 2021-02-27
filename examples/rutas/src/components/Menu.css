@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+    background-color: tomato;
+    border: 1px solid salmon;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.menu li:hover {
+    background-color: salmon;
+}
+
+.menu a.active li {
+    background-color: red;
+}
