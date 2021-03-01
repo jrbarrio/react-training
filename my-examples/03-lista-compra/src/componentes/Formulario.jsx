@@ -8,8 +8,8 @@ function Formulario() {
     });
 
     function handleChange(event, field) {
-        setProductoState({
-            ...productoState,
+        setPostState({
+            ...postState,
             [field]: event.target.value
         });
     }
