@@ -23,8 +23,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Problema1></Problema1> */}
-      {/* <Problema2></Problema2> */}
+      <Problema1></Problema1>
+      <Problema2></Problema2>
       {/* <Suma numA={3} numB={4} sumaFinalizada={ handleSumaFinalizada } cuentaTerminada={ handleCuentaTerminada }></Suma> */}
       {/* <Formulario></Formulario> */}
       {/* <CicloVida></CicloVida> */}
@@ -32,7 +32,7 @@ function App() {
       {/* <Listas></Listas> */}
       {/* <Efectos></Efectos> */}
       {/* <Users></Users> */}
-      <Scroll></Scroll>
+      {/* <Scroll></Scroll> */}
     </div>
   );
 }
