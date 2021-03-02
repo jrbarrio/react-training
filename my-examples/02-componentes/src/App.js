@@ -1,6 +1,4 @@
 import './App.css';
-import Problema1 from "./componentes/Problema1";
-import Problema2 from "./componentes/Problema2";
 import Suma from "./componentes/Suma";
 import Formulario from './componentes/Formulario'
 import CicloVida from './componentes/CicloVida';
@@ -23,9 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Problema1></Problema1>
-      <Problema2></Problema2>
-      {/* <Suma numA={3} numB={4} sumaFinalizada={ handleSumaFinalizada } cuentaTerminada={ handleCuentaTerminada }></Suma> */}
+      <Suma numA={3} numB={4} sumaFinalizada={ handleSumaFinalizada } cuentaTerminada={ handleCuentaTerminada }></Suma>
       {/* <Formulario></Formulario> */}
       {/* <CicloVida></CicloVida> */}
       {/* <Condicionales></Condicionales> */}
