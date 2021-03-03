@@ -19,11 +19,13 @@ function Scroll() {
     });
 
     return (
-        <p style={{
-            backgroundColor: 'green',
-            color: 'black',
-            position: 'fixed'
-        }}>Scroll: { scrollActual }</p>
+        <>
+            <p style={{
+                backgroundColor: 'green',
+                color: 'black',
+                position: 'fixed'
+            }}>Scroll: { scrollActual }</p>
+        </>
     );
 }
 
