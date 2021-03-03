@@ -1,5 +1,4 @@
 import './App.css';
-import Condicionales from './componentes/Condicionales';
 import Listas from './componentes/Listas';
 import Efectos from './componentes/Efectos';
 import Users from './componentes/Users';
@@ -9,8 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <Condicionales></Condicionales>
-      {/* <Listas></Listas> */}
+      <Listas></Listas>
       {/* <Efectos></Efectos> */}
       {/* <Users></Users> */}
       {/* <Scroll></Scroll> */}
