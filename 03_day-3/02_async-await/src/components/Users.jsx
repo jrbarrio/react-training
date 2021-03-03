@@ -1,7 +1,5 @@
 import { useState, useEffect} from 'react';
 
-
-// https://jsonplaceholder.typicode.com/users
 function Users() {
     const [users, setUsers] = useState([]);
 
@@ -13,9 +11,11 @@ function Users() {
         };
         getUSers();
     }, []);
+    // Passing an empty array as a second array, the hook only is only executed on the first render
+    // as on the next renders there is no dependency to compare against
 
     return (<div>
-        <h1>Lista de usuarios</h1>
+        <h1>User list:</h1>
         <ul>
             { users.map(user => (
                 <li key={ user.id }>{ user.name }</li>

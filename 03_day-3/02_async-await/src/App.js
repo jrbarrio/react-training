@@ -1,11 +1,10 @@
 import './App.css';
-import Scroll from './componentes/Scroll';
+import Users from './components/Users';
 
 function App() {
-
   return (
     <div className="App">
-      <Scroll></Scroll>
+      <Users></Users>
     </div>
   );
 }
