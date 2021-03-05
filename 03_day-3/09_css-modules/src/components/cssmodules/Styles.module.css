@@ -1,0 +1,15 @@
+.paragraph {
+    background-color: palevioletred;
+}
+
+.paragraph:hover {
+    background-color: peachpuff;
+}
+
+.paragraph.green {
+    background-color: lightgreen;
+}
+
+.paragraph.green:hover {
+    background-color: green;
+}

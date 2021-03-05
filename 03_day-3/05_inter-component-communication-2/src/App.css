@@ -1,0 +1,17 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.product {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.product img {
+  width: 100%;
+}

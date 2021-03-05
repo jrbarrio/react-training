@@ -1,0 +1,15 @@
+.counter {
+    background-color: gray;
+}
+
+.low {
+    color: lightgreen
+}
+
+.medium {
+    color: goldenrod;
+}
+
+.high {
+    color: tomato;
+}
