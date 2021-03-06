@@ -5,12 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
+/********** AXIOS LIBRARY CONFIGURATION **************/
 
 axios.defaults.headers.common['Authorization'] = 'TOKEN';
 axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
 
-// Software middleware intercalada entre mediasde las petiones que hace la aplicacion y el servidor
-// Puedo poner tantos interceptores como quiera
+// Software middleware placed between the application and the server ( as a Java Filter)
+// So many interceptors as desired can be placed
 axios.interceptors.request.use(request => {
   console.log('[INTERCEPTOR REQUEST]', request);
   return request;
@@ -20,6 +21,8 @@ axios.interceptors.response.use(response => {
   console.log('[INTERCEPTOR RESPONSE]', response);
   return response;
 });
+
+/********** AXIOS LIBRARY CONFIGURATION **************/
 
 ReactDOM.render(
   <React.StrictMode>

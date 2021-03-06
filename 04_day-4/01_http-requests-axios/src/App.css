@@ -1,10 +1,10 @@
-.personajes {
+.characters {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.personaje {
+.character {
   width: 200px;
   border: 1px solid gray;
   padding: 20px;

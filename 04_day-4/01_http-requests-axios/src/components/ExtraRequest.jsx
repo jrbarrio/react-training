@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-export default function PeticionesExtra() {
+export default function ExtraRequest() {
 
     function handleClickPost() {
         axios.post('/posts', {
             userId: 12,
-            title: 'Mi titulo',
-            body: 'Este es el post'
+            title: 'My title',
+            body: 'This is a post'
         })
         .then(response => {
             console.log(response);
@@ -27,8 +27,8 @@ export default function PeticionesExtra() {
 
     return (
         <div>
-            <button onClick={ handleClickPost }>Peticion POST</button>
-            <button onClick={ handleClickDelete }>Peticion DELETE</button>
+            <button onClick={ handleClickPost }>POST</button>
+            <button onClick={ handleClickDelete }>DELETE</button>
         </div>
     );
 }

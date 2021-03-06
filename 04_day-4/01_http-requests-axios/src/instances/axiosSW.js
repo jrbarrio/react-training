@@ -4,7 +4,7 @@ const instance = axios.create({
     baseURL: 'https://swapi.dev/api'
 });
 
-// Tambien se pueden machacar propiedades del objeto de instancia
+// Instance object properties can be overriden
 instance.defaults.headers.common['Authorization'] = 'TOKEN SWAPI';
 
 export default instance;
