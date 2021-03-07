@@ -1,0 +1,10 @@
+.wrapper {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+}
+
+.wrapper img {
+    width: 100%;
+}

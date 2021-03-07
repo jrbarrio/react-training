@@ -1,0 +1,12 @@
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character {
+  width: 200px;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 10px;
+}
