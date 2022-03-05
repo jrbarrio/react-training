@@ -20,10 +20,10 @@ function Animals(props) {
     }    
 
     function handleClickAdd() {
-        const newAnimal = [ ...animalsState ];
-        //const nuevo = animalesState.slice();
-        newAnimal.push({ name: 'Morris', tipo: 'raton', edad: 1 })
-        setAnimalsState(newAnimal);
+        const newAnimals = [ ...animalsState ];
+        //const newAnimals = animalsState.slice();
+        newAnimals.push({ name: 'Morris', type: 'raton', age: 1 })
+        setAnimalsState(newAnimals);
     }
 
     return (<div>
