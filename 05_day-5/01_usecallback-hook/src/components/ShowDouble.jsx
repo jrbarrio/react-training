@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function ShowDouble({ getDoble: getDouble }) {
+export default function ShowDouble({ getDouble: getDouble }) {
     
     const [double, setDouble] = useState(0);
 

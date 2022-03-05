@@ -17,7 +17,7 @@ export default function Double() {
             <p>Message: { message }</p>
             <button onClick={ () => setNumber(number + 1)}>Increment number</button>
             <input type="text" onChange={ (e) => setMessage(e.target.value) }></input>
-            <ShowDouble getDoble={ getDouble }></ShowDouble>
+            <ShowDouble getDouble={ getDouble }></ShowDouble>
         </div>
     );
 }
